@@ -2,8 +2,8 @@
 # -*- coding:utf-8 -*-
 #
 # @name   : PhoneInfoga - Phone numbers OSINT tool
-# @url    : https://github.com/sundowndev
-# @author : Raphael Cerveaux (sundowndev)
+# @url    : https://github.com/rsdraju99
+# @author : Raphael Cerveaux (rsdraju99)
 
 import requests
 import json
@@ -28,7 +28,7 @@ uagent.append(
     "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0")
 
 # Request SSL DH key error workaround
-# See https://github.com/sundowndev/PhoneInfoga/issues/16
+# See https://github.com/rsdraju99/PhoneInfoga/issues/16
 requests.packages.urllib3.disable_warnings()
 requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS += 'HIGH:!DH:!aNULL'
 try:
