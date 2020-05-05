@@ -2,8 +2,8 @@
 # -*- coding:utf-8 -*-
 #
 # @name   : PhoneInfoga - Phone numbers OSINT tool
-# @url    : https://github.com/sundowndev
-# @author : Raphael Cerveaux (sundowndev)
+# @url    : https://github.com/rsdraju99
+# @author : Raphael Cerveaux (rsdraju99)
 
 import re
 import json
@@ -67,7 +67,7 @@ def search(req, stop):
 
         return links
     except Exception as e:
-        error('Request failed. Please retry or open an issue on https://github.com/sundowndev/PhoneInfoga.')
+        error('Request failed. Please retry or open an issue on https://github.com/rsdraju99/PhoneInfoga.')
         print(e)
         return []
 
