@@ -2,13 +2,13 @@
 # -*- coding:utf-8 -*- 
 #
 # @name   : PhoneInfoga - Phone numbers OSINT tool
-# @url    : https://github.com/sundowndev
-# @author : Raphael Cerveaux (sundowndev)
+# @url    : https://github.com/rsdraju99
+# @author : Raphael Cerveaux (rsdraju99)
 
 import argparse
 from lib.banner import __version__
 
-parser = argparse.ArgumentParser(description="Advanced information gathering tool for phone numbers (https://github.com/sundowndev/PhoneInfoga) version {}".format(__version__),
+parser = argparse.ArgumentParser(description="Advanced information gathering tool for phone numbers (https://github.com/rsdraju99/PhoneInfoga) version {}".format(__version__),
                                  usage='%(prog)s -n <number> [options]')
 
 parser.add_argument('-n', '--number', metavar='number', type=str,
