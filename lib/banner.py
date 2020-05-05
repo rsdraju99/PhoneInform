@@ -2,8 +2,8 @@
 # -*- coding:utf-8 -*- 
 #
 # @name   : PhoneInfoga - Phone numbers OSINT tool
-# @url    : https://github.com/sundowndev
-# @author : Raphael Cerveaux (sundowndev)
+# @url    : https://github.com/rsdraju99
+# @author : Raphael Cerveaux (rsdraju99)
 
 __version__ = 'v1.6.4'
 
@@ -15,5 +15,5 @@ def banner():
     print(" \/    |_| |_|\___/|_| |_|\___\____/ |_| |_|_|  \___/ \__, |\__,_|")
     print("                                                      |___/       ")
     print(" PhoneInfoga Ver. {}".format(__version__))
-    print(" Coded by Sundowndev")
+    print(" Coded by rsdraju99")
     print("\n")
